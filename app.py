@@ -34,7 +34,7 @@ db.create_all()
 @app.route("/")
 def hello():
     # Return a greeting message
-    return jsonify({"message": "Hello from App B!"})
+    return jsonify({"message": "Hello!! Welcome to Order App! Order Service is Working."})
 
 
 # Define a resource for the /call_app_a endpoint
